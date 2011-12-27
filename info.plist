@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Tom Martin</string>
+	<key>description</key>
+	<string>Precision colors for machines and people, originally created by &lt;a href="http://ethanschoonover.com/solarized"&gt;Ethan Schoonover&lt;/a&gt;.</string>
+	<key>name</key>
+	<string>Solarized</string>
+	<key>uuid</key>
+	<string>B5D09BEE-820F-4242-A28D-7086C0593A5F</string>
+</dict>
+</plist>
