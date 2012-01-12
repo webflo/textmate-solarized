@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Solarized (light)</string>
+	<string>Solarized (Dark)</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FDF6E3</string>
+				<string>#042029</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#819090</string>
 				<key>foreground</key>
-				<string>#586E75</string>
+				<string>#839496</string>
 				<key>invisibles</key>
-				<string>#EAE3C9</string>
+				<string>#586e75</string>
 				<key>lineHighlight</key>
-				<string>#EEE8D5</string>
+				<string>#0A2933</string>
 				<key>selection</key>
-				<string>#07362E42</string>
+				<string>#073642</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,7 +33,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#93A1A1</string>
+				<string>#586E75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -110,9 +110,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#073642</string>
+				<string>#738A05</string>
 			</dict>
 		</dict>
 		<dict>
@@ -229,7 +229,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#93A1A1</string>
+				<string>#586E75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -322,7 +322,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee8d5</string>
+				<string>#073642</string>
 			</dict>
 		</dict>
 		<dict>
@@ -379,7 +379,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>		
+				<string></string>
 				<key>foreground</key>
 				<string>#536871</string>
 			</dict>
@@ -473,10 +473,10 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
-            <dict>
+			<dict>
 				<key>fontStyle</key>
 				<string></string>
-                <key>foreground</key>
+				<key>foreground</key>
 				<string>#268BD2</string>
 			</dict>
 		</dict>
@@ -499,10 +499,10 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name.id.css</string>
 			<key>settings</key>
-            <dict>
+			<dict>
 				<key>fontStyle</key>
 				<string></string>
-                <key>foreground</key>
+				<key>foreground</key>
 				<string>#268BD2</string>
 			</dict>
 		</dict>
@@ -608,7 +608,7 @@
 				<key>foreground</key>
 				<string>#899090</string>
 			</dict>
-    	</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>HTML: Comment Block</string>
@@ -622,7 +622,7 @@
 				<string>#839496</string>
 			</dict>
 		</dict>
-    	<dict>
+		<dict>
 			<key>name</key>
 			<string>HTML: Script</string>
 			<key>scope</key>
@@ -984,6 +984,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP: Class Names</string>
+			<key>scope</key>
+			<string>support.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP: []</string>
 			<key>scope</key>
 			<string>keyword.operator.index-start.php, keyword.operator.index-end.php</string>
@@ -1065,13 +1076,13 @@
 			<key>name</key>
 			<string>PHP: ::</string>
 			<key>scope</key>
-			<string>support.class.php, keyword.operator.class</string>
+			<string>keyword.operator.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#536871</string>
+				<string>#839496</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1101,6 +1112,17 @@
 			<string>PHP: Class Function</string>
 			<key>settings</key>
 			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Semicolon</string>
+			<key>scope</key>
+			<string>punctuation.terminator.expression.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1863,7 +1885,6 @@
 				<string>#DC322F</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: List</string>
@@ -1886,7 +1907,6 @@
 				<string>#b58900</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: Link</string>
@@ -1898,7 +1918,6 @@
 				<string>#859900</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: Image</string>
@@ -1912,7 +1931,6 @@
 				<string>#859900</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: Heading entity name</string>
@@ -1924,7 +1942,6 @@
 				<string>#CB4B16</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: separator</string>
@@ -1934,12 +1951,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FDF6E3</string>
+				<string>#042029</string>
 				<key>foreground</key>
 				<string>#268bd2</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: code block</string>
@@ -1951,7 +1967,6 @@
 				<string>#b58900</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: code inline</string>
@@ -1963,7 +1978,6 @@
 				<string>#b58900</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: punctuation definition</string>
@@ -1974,10 +1988,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#93a1a1</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Markdown: blockquote punctuation definition</string>
@@ -1990,9 +2003,8 @@
 				<string>#2aa198</string>
 			</dict>
 		</dict>
-		
 	</array>
 	<key>uuid</key>
-	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>
+	<string>A4299D9B-1DE5-4BC4-87F6-A757E71B1597</string>
 </dict>
 </plist>
